@@ -1,0 +1,35 @@
+body {
+	background-image: url("http://samcallender.github.io/Taasky/stripes.png"), url("http://samcallender.github.io/Taasky/background.jpg");
+	background-repeat: repeat-x;
+	background-size: auto;
+	background-color: #4d586f;
+}
+
+h1 {
+	position: fixed;
+	top: 150px;
+	left: 50px;
+}
+
+hr {
+	width: 50px;
+	position: fixed;
+	top: 250px;
+	left: 50px;
+	border: 1px solid #f79;
+}
+
+p {
+	font-family: 'courier new',monospace;
+	font-size: 16px;
+	color: white;
+	position: fixed;
+	top: 300px;
+	left: 50px;
+}
+
+#appstore {
+	position: fixed;
+	top: 400px;
+	left: 50px;	
+}
