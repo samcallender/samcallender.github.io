@@ -1,5 +1,5 @@
 body {
-	background-image: url("celias/elipse.png"), url("celias/celias-background.jpg");
+	background-image: url("celias-assets/elipse.png"), url("celias-assets/celias-background.jpg");
 	background-repeat: no-repeat, repeat-y;
 	background-size: cover, cover;
 
