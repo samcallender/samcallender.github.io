@@ -2,19 +2,23 @@ body {
 	background-image: url("celias-assets/elipse.png"), url("celias-assets/celias-background.jpg");
 	background-repeat: no-repeat, repeat-y;
 	background-size: cover, cover;
-
+	font-family: "Snell Roundhand", serif;	
 }
 
-.nav {
+nav {
 	color: #d2d3d4;
 	text-align: center;
-	font-family: "Snell Roundhand";
 	text-align: right;
+	display: inline-block;
+	color: #08cef9;
+}
+
+a {
+	color: #d2d3d4;
 }
 
 #logo {
   font-size: 72px;
-  font-family: "Snell Roundhand";
   color: #08cef9;
   text-align: center;
   margin-top: 25%;
@@ -31,13 +35,11 @@ body {
 p {
 	color: #d2d3d4;
 	text-align: center;
-	font-family: arial;
+	font-family: arial, sans-serif;
 }
 
 #resi {
 	color: white;
-  	text-align: center;
-  	margin-top: 0%;
-  	font-family: 'Snell Roundhand';
-
+  text-align: center;
+  margin-top: 0%;
 }
