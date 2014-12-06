@@ -1,0 +1,61 @@
+body {
+    background-image: url(assets/#);
+    background-size: cover;
+    background-repeat: no-repeat;	
+}
+
+
+nav {
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    background-color: ;
+}
+nav li {
+    display:inline;
+    padding: 20px;
+}
+nav a {
+    display:inline-block;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: font-family: 'Great Vibes', cursive;
+}
+
+h1 {
+     font-family: font-family: 'Great Vibes', cursive;
+}
+
+.navright {
+
+}
+
+.navleft {
+
+}
+
+
+#hibiscus {
+	max-height: 200px;
+	max-width: 200px;
+}
+
+#hibiscus-hero {
+    max-height: 400px;
+    max-width: 400px;
+}
+
+about {
+    display: inline-block;
+    float: left;
+}
+
+#review {
+
+}
+
+
+footer {
+    text-align: center;
+}

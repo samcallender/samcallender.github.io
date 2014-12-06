@@ -9,13 +9,22 @@ nav {
 	color: #d2d3d4;
 	text-align: center;
 	text-align: right;
-	display: inline-block;
 	color: #08cef9;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline-block;
+	color: #d2d3d4;
 }
 
 a {
 	color: #d2d3d4;
-}
+	text-decoration: none;
+} 
 
 #logo {
   font-size: 72px;
