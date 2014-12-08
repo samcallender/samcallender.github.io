@@ -1,61 +1,82 @@
 body {
-    background-image: url(assets/#);
+    background-image: url(assets/background-darkwood.jpg);
     background-size: cover;
-    background-repeat: no-repeat;	
 }
-
 
 nav {
     list-style:none;
     margin:0;
     padding:0;
     text-align:center;
-    background-color: ;
+/*margin: 0 auto;
+  width: %*/
+
 }
 nav li {
     display:inline;
     padding: 20px;
+    margin-top: -30px;
+
+/*float: left
+Top padding: */
 }
 nav a {
     display:inline-block;
     text-decoration: none;
     font-size: 30px;
-    font-family: font-family: 'Great Vibes', cursive;
+    font-family: 'Great Vibes', cursive;
+    color: #e8e8e8;
 }
 
 h1 {
-     font-family: font-family: 'Great Vibes', cursive;
+     font-family: 'Open Sans', sans-serif;
+     color: #e8e8e8;
 }
 
-.navright {
-
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: #e8e8e8;
 }
 
-.navleft {
-
+#logo {
+	max-height: 100px;
+	max-width: 100px;
+    /*top-padding: 0*/
 }
 
-
-#hibiscus {
-	max-height: 200px;
-	max-width: 200px;
+hr {
+    width: 80%;
+    border-color: #b1b1b1;
 }
 
-#hibiscus-hero {
-    max-height: 400px;
-    max-width: 400px;
+section {
+    margin: auto center;
+    margin-bottom: 1%;
 }
 
-about {
+#about {
     display: inline-block;
     float: left;
+    width: 33%
+}
+
+#hero {
+    float: left;
+    width: 33%;
+    margin-bottom: 1%;
 }
 
 #review {
-
+    float: left;
+    width: 33%;
 }
-
 
 footer {
     text-align: center;
+    clear: both;
+}
+
+#logo-footer {
+    font-family: 'Great Vibes', cursive;
+    color: #e8e8e8;
 }
