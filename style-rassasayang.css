@@ -1,5 +1,5 @@
 body {
-    background-image: url(assets/background-darkwood.jpg);
+    background-image: url(assets/background-darkwood-hibiscus-brush.png);
     background-size: cover;
 }
 
@@ -28,6 +28,10 @@ nav a {
     color: #e8e8e8;
 }
 
+a:hover {
+    color: red;
+}
+
 h1 {
      font-family: 'Open Sans', sans-serif;
      color: #e8e8e8;
@@ -52,6 +56,8 @@ hr {
 section {
     margin: auto center;
     margin-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 #about {
