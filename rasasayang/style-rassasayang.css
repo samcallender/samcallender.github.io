@@ -28,25 +28,13 @@ nav a {
     color: #e8e8e8;
 }
 
-a {
-    font-family: 'Open Sans', sans-serif;
-    text-decoration: none;
-    color: #e8e8e8;
-}
-
 a:hover {
-    color: #e43600;
+    color: red;
 }
 
 h1 {
      font-family: 'Open Sans', sans-serif;
      color: #d67f15;
-}
-
-h2 {
-    font-family: 'Open Sans', sans-serif;
-    color: #e8e8e8;
-    font-size: 18px
 }
 
 p {
@@ -70,17 +58,17 @@ section {
     margin-bottom: 1%;
     padding-left: 10%;
     padding-right: 10%;
-    padding-top: 1%;
+    padding-top: 2%;
 }
 
 #left-block {
+    display: inline-block;
     float: left;
     width: 49%;
-    padding-right: 1%;
 }
 
-.red {
-    color: #e43600;
+.orange {
+    color: #d67f15;
     font-weight: bold;
 }
 
@@ -90,35 +78,9 @@ section {
     margin-bottom: 1%;
 }
 
-.right-block-text {
-    padding-left: 10%;
-}
+.hero-image{
+    max-width: 100%
 
-.hero-image {
-    max-width: 100%;
-
-}
-
-.menu-image {
-    max-width: 90%
-}
-
-#lunch {
-    float: left;
-    width: 33%;
-    padding-top: 10%
-
-}
-
-#dinner {
-    float: left;
-    width: 33%;
-    padding-top: 10%
-}
-
-#cocktails{
-    float: left;
-    width: 33%;
 }
 
 footer {
