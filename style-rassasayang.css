@@ -1,18 +1,17 @@
 body {
     background-image: url(assets/background-darkwood-hibiscus-brush.png);
     background-size: cover;
+    background-color: #272727;
 }
-
-/*add a dark background color to the body.*/
 
 nav {
     margin: 0 auto;
     width: 80%;
+    margin-top: 3%;
 
 }
 nav li {
     float: left;
-
     list-style:none;
     margin-left: 2%;
     padding: 0 10px;
@@ -58,6 +57,7 @@ h2 {
 p {
     font-family: 'Open Sans', sans-serif;
     color: #e8e8e8;
+    line-height: 22px;
 }
 
 /*change the line spacing and edit the copy to be smaller*/
@@ -108,7 +108,8 @@ section {
 }
 
 .menu-image {
-    max-width: 90%
+    /*max-width: 90%*/
+    width: auto;
     margin: auto center;
 }
 
