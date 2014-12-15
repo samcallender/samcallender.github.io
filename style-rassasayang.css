@@ -3,31 +3,35 @@ body {
     background-size: cover;
 }
 
+/*add a dark background color to the body.*/
+
 nav {
     margin: 0 auto;
     width: 80%;
 
-/*margin: 0 auto;
-  width: %*/
-
 }
 nav li {
     float: left;
-    padding: 20px;
+
     list-style:none;
-    margin: 0 auto;
+    margin-left: 2%;
+    padding: 0 10px;
     text-align: center;
-
-
-/*float: left
-Top padding: */
+    width: 15%;
 }
+
+ul {
+    width: 100%;
+    padding: 0;
+
+}
+
 nav a {
-    display:inline-block;
     text-decoration: none;
     font-size: 30px;
     font-family: 'Great Vibes', cursive;
     color: #e8e8e8;
+    display: block;
 }
 
 a {
@@ -56,6 +60,8 @@ p {
     color: #e8e8e8;
 }
 
+/*change the line spacing and edit the copy to be smaller*/
+
 #logo {
 	max-height: 100px;
 	max-width: 100px;
@@ -73,7 +79,7 @@ section {
     margin-bottom: 1%;
     padding-left: 10%;
     padding-right: 10%;
-    padding-top: 1%;
+    padding-top: 2%;
 }
 
 #left-block {
