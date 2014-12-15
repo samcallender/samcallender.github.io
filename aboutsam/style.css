@@ -1,0 +1,64 @@
+body {
+	background-color: #fff2d1;
+}
+
+header {
+	background-image: url("assets/sambr.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #061a42;
+
+}
+
+#profilepic {
+	max-height: 250px;
+	display: block;
+	margin: 0 auto;
+	padding: 20px 0px 0px 0px;
+}
+
+.left {
+	float: left;
+	max-width: 40%;
+	min-width: 40%;
+	margin-left: 5%;
+}
+
+.right {
+	float: left;
+	max-width: 40%;
+	min-width: 40%;
+	margin-left: 10%;
+}
+
+section {
+	clear: both;
+}
+
+#name {
+	text-align: center;
+	font-family: 'Bangers', cursive;
+	color: #fff2d1;
+	font-size: 40px;
+	padding-bottom: 30px;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	color: #e05944;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	color: #272727;
+	line-height: 25px;
+}
+
+a {
+	text-decoration: none;
+	color: #272727;
+}
+
+a:hover {
+	color: red;
+}
