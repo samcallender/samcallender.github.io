@@ -22,11 +22,12 @@ nav li {
 ul {
     width: 100%;
     padding: 0;
+
 }
 
 nav a {
     text-decoration: none;
-    font-size: 1.8em;
+    font-size: 30px;
     font-family: 'Great Vibes', cursive;
     color: #e8e8e8;
     display: block;
@@ -45,20 +46,18 @@ a:hover {
 h1 {
      font-family: 'Open Sans', sans-serif;
      color: #d67f15;
-     font-size: 1.5em;
 }
 
 h2 {
     font-family: 'Open Sans', sans-serif;
     color: #e8e8e8;
-    font-size: 1.2em;
+    font-size: 18px
 }
 
 p {
     font-family: 'Open Sans', sans-serif;
     color: #e8e8e8;
-    font-size: 1em;
-    line-height: 1.5em;
+    line-height: 22px;
 }
 
 /*change the line spacing and edit the copy to be smaller*/
@@ -80,7 +79,7 @@ section {
     margin-bottom: 1%;
     padding-left: 10%;
     padding-right: 10%;
-    padding-top: 2%; 
+    padding-top: 2%;
 }
 
 #left-block {
@@ -139,17 +138,10 @@ section {
 footer {
     text-align: center;
     clear: both;
-    line-height: .5em;
 }
 
 #logo-footer {
     font-family: 'Great Vibes', cursive;
     color: #e8e8e8;
-    margin-top: 2%;
-}
-
-@media only screen and (max-width: 400 px) {
-    nav li{
-        float: none;
-    }
+    margin-bottom: 0px;
 }

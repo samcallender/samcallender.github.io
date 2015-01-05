@@ -1,5 +1,6 @@
 body {
 	background-color: #fff2d1;
+	font-size: 18px;
 }
 
 header {
@@ -11,27 +12,29 @@ header {
 }
 
 #profilepic {
-	max-height: 250px;
+	max-height: 13em;
 	display: block;
 	margin: 0 auto;
-	padding: 20px 0px 0px 0px;
+	padding: 1em 0em 0em 0em;
 }
 
 .left {
 	float: left;
-	max-width: 40%;
-	min-width: 40%;
+	width: 40%;
+	/*max-width: 40%;
+	min-width: 40%;*/
 	margin-left: 5%;
 }
 
 .right {
 	float: left;
-	max-width: 40%;
-	min-width: 40%;
+	width: 40%;
+	/*max-width: 40%;
+	min-width: 40%;*/
 	margin-left: 10%;
 }
 
-section {
+section  {
 	clear: both;
 }
 
@@ -39,19 +42,20 @@ section {
 	text-align: center;
 	font-family: 'Bangers', cursive;
 	color: #fff2d1;
-	font-size: 40px;
-	padding-bottom: 30px;
+	font-size: 2em;
+	padding-bottom: 1.5em;
 }
 
 h2 {
 	font-family: 'Open Sans', sans-serif;
 	color: #e05944;
+	font-size: 1.25em;
 }
 
 p {
 	font-family: 'Open Sans', sans-serif;
 	color: #272727;
-	line-height: 25px;
+	line-height: 1.25em;
 }
 
 a {
@@ -62,3 +66,50 @@ a {
 a:hover {
 	color: red;
 }
+
+@media screen and (max-width: 500px) {
+	body {
+		background-image: url("assets/sambr.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		font-size: 14px;
+	}
+
+	header {
+		background-image: none;
+		background-color: transparent;
+	}
+
+	#profilepic {
+		max-height: 17em;
+		display: block;
+		margin: 0 auto;
+		padding: 1em 0em 0em 0em;
+	}
+	
+	#name{
+		font-size: 3em;
+		padding-bottom: 0em;
+	}
+
+	.left {
+		float: none;
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	.right {
+		float: none;
+		width: 1000%;
+		margin-left: 0%;
+	}
+	
+	h2 {
+		color: #fff2d1;
+		font-size: 1.8em;
+	}
+
+	p {
+		display: none;
+	}
+} 
